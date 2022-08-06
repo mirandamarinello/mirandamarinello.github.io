@@ -1,1 +1,65 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 
+/* Root */ 
+* {
+	font-family: 'Poiret One', sans-serif;
+}
+
+/* HTML */
+html {
+	overflow-x: hidden;
+	background-color: black;
+	padding: 0;
+	margin: 0;
+	color: white;
+}
+
+/* Body */
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0;
+}
+
+header {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+h1 {
+	font-family: 'Poiret One', sans-serif;
+	font-size: 3rem;
+}
+
+nav{
+	width: 40%;
+	font-size: 1.5rem;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+nav>p>a {
+	padding: .5rem;
+	margin: .5rem;
+}
+
+.top-link:hover {
+	color: red;
+}
+
+main {
+	color:white;
+	font-size: 1rem;
+}
