@@ -62,15 +62,14 @@ nav>p>a {
 main {
 	color:black;
 	font-size: 1rem;
+	display: flex;
+	flex-direction: column;
 }
 
-main > section {
+.home-section {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-}
-
-#pink-dress {
-	height: 200px;
+	min-height: 200px;
 }
