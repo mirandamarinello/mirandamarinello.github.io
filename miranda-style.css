@@ -71,6 +71,6 @@ main > section {
 	align-items: center;
 }
 
-main > section > .image {
+#pink-dress {
 	height: 600px;
 }
