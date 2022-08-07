@@ -64,13 +64,13 @@ main {
 	font-size: 1rem;
 }
 
-.home-section {
+main > section {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 }
 
-main > .image {
+main > section > .image {
 	height: 600px;
 }
