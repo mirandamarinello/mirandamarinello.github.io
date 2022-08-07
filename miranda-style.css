@@ -9,10 +9,10 @@
 /* HTML */
 html {
 	overflow-x: hidden;
-	background-color: black;
+	background-color: whitesmoke;
 	padding: 0;
 	margin: 0;
-	color: white;
+	color: black;
 }
 
 /* Body */
@@ -47,7 +47,7 @@ nav{
 
 a{
 	text-decoration: none;
-	color: white;
+	color: black;
 }
 
 nav>p>a {
@@ -56,11 +56,11 @@ nav>p>a {
 }
 
 .top-link:hover {
-	color: peachpuff;
+	color: burlywood;
 }
 
 main {
-	color:white;
+	color:black;
 	font-size: 1rem;
 }
 
