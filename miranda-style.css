@@ -74,3 +74,6 @@ main {
 	min-height: 200px;
 }
 
+.home-section > .image {
+	height: 200px;
+}
