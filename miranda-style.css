@@ -77,3 +77,8 @@ main {
 .home-section > .image {
 	height: 200px;
 }
+
+#creations-main-nav {
+	display: flex;
+	flex-direction: column;
+}
