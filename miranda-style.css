@@ -64,6 +64,11 @@ main {
 	font-size: 1rem;
 }
 
-#pink-dress {
+.home-section {
+	display: flex;
+}
+
+main > .image {
 	height: 600px;
 }
+
