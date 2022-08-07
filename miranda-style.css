@@ -66,9 +66,11 @@ main {
 
 .home-section {
 	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 }
 
 main > .image {
 	height: 600px;
 }
-
