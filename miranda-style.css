@@ -78,7 +78,7 @@ main {
 	height: 400px;
 }
 
-#creations-ul {
+.index > ul {
 	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
@@ -86,6 +86,6 @@ main {
 	justify-content: center;
 }
 
-.creations-ul-p {
+.index > ul > p {
 	font-size: 1.8rem;
 }
