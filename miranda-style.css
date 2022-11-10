@@ -89,3 +89,7 @@ main {
 .index > ul > p {
 	font-size: 1.8rem;
 }
+
+img {
+	max-width: 100;
+}
