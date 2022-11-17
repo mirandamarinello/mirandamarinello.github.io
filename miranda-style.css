@@ -121,12 +121,15 @@ img {
 /* INDEX */
 
 .showcase {
-	background: ;
 	width: 100%;
 	transition: content 2s;
 	content:url(https://www.marinello.art/images/garments/blue_skirt/blue_skirt_transparent.png)
 }  
 
-.showcase::after {
+.showcase:hover {
 	content: url(https://www.marinello.art/images/furniture/bar/bar_side_by_side.jpg);
 }                    
+
+.showcase::after {
+	content: url(https://www.marinello.art/images/furniture/bar/bar_side_by_side.jpg);
+}
