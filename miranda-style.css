@@ -1,4 +1,7 @@
-/* Consider https://codepen.io/chriscoyier/pen/XwbNwX for image carousels? */
+/* 
+Designed by jackiekellett 
+GitHub: https://github.com/jackiekellett  
+*/
 
 /* Imports */
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
@@ -96,4 +99,11 @@ main {
 /* TEMPORARY */
 img {
 	max-width: 100px;
+}
+
+/* INDEX */
+
+.showcase {
+	width: 100%;
+	content:url(https://www.marinello.art/images/garments/blue_skirt/blue_skirt_transparent.png)
 }
