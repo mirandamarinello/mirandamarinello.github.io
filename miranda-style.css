@@ -9,9 +9,9 @@ GitHub: https://github.com/jackiekellett
 /* Root */ 
 * {
 	font-family: 'Poiret One', sans-serif;
-	--dark: #2a0147;
+	--dark: #3b0264;
 	--transdark: rbga(42,1,71,0.2);
-	--bgcolor: #d2b48c;
+	--bgcolor: #f1e7da;
 	--bright: #dc0096;
 	--light: #ffffff;
 }
