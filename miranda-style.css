@@ -9,11 +9,11 @@ GitHub: https://github.com/jackiekellett
 /* Root */ 
 * {
 	font-family: 'Poiret One', sans-serif;
-	--dark: rgba(42,1,71,1.0);
+	--dark: #2a0147;
 	--transdark: rbga(42,1,71,0.2);
-	--bgcolor: rgba(210,180,140,1.0);
-	--bright: rgba(220,0,150,1.0);
-	--light: rgba(255,255,255,1.0);
+	--bgcolor: #d2b48c;
+	--bright: #dc0096;
+	--light: #ffffff;
 }
 
 
