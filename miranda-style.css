@@ -122,14 +122,11 @@ img {
 
 .showcase {
 	width: 100%;
-	transition: content 2s;
-	content:url(https://www.marinello.art/images/garments/blue_skirt/blue_skirt_transparent.png)
-}  
+	animation: ani 5s ease-in-out infinite;
+}
 
-.showcase:hover {
-	content: url(https://www.marinello.art/images/furniture/bar/bar_side_by_side.jpg);
-}                    
-
-.showcase::after {
-	content: url(https://www.marinello.art/images/furniture/bar/bar_side_by_side.jpg);
+@keyframes ani {
+	0% {background: url(https://www.marinello.art/images/garments/blue_skirt/blue_skirt_transparent.png);}
+	50% {background: url(https://www.marinello.art/images/furniture/bar/bar_side_by_side.jpg);}
+	100% {background: url(https://www.marinello.art/images/garments/blue_skirt/blue_skirt_transparent.png);}
 }
