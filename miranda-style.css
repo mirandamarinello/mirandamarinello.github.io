@@ -9,15 +9,22 @@ GitHub: https://github.com/jackiekellett
 /* Root */ 
 * {
 	font-family: 'Poiret One', sans-serif;
+	--dark: rgba(42,1,71,1.0);
+	--transdark: rbga(42,1,71,0.2);
+	--bgcolor: rgba(210,180,140,1.0);
+	--bright: rgba(220,0,150,1.0);
+	--light: rgba(255,255,255,1.0);
 }
+
+
 
 /* HTML */
 html {
 	overflow-x: hidden;
-	background-color: whitesmoke;
+	background-color: var(--bgcolor);
 	padding: 0;
 	margin: 0;
-	color: black;
+	color: var(--dark);
 }
 
 /* Body */
@@ -53,7 +60,7 @@ nav{
 
 a{
 	text-decoration: none;
-	color: black;
+	color: var(--dark);
 }
 
 nav>p>a {
@@ -62,11 +69,11 @@ nav>p>a {
 }
 
 .top-link:hover {
-	color: burlywood;
+	color: var(--bright);
 }
 
 main {
-	color:black;
+	color: var(--dark);
 	font-size: 1rem;
 	display: flex;
 	flex-direction: column;
@@ -114,13 +121,11 @@ img {
 /* INDEX */
 
 .showcase {
+	background: ;
 	width: 100%;
 	transition: content 2s;
 	content:url(https://www.marinello.art/images/garments/blue_skirt/blue_skirt_transparent.png)
-}
-
-.showcase::before {
-}
+}  
 
 .showcase::after {
 	content: url(https://www.marinello.art/images/furniture/bar/bar_side_by_side.jpg);
