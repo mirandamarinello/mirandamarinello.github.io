@@ -96,6 +96,16 @@ main {
 	font-size: 1.8rem;
 }
 
+/* Footer */
+footer {
+	font-size: 0.8em;
+}
+
+#confoot {
+	font-size: 1.2em;
+	font-style: oblique;
+}
+
 /* TEMPORARY */
 img {
 	max-width: 100px;
