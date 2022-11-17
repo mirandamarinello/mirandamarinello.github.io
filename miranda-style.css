@@ -122,6 +122,7 @@ img {
 
 .showcase {
 	width: 100%;
+	background: center;
 	animation: ani 5s ease-in-out infinite;
 }
 
