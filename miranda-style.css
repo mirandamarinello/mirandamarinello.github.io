@@ -103,17 +103,15 @@ img {
 .showcase {
 	width: 100%;
 	min-height: 50vw;
+	max-height: 100%;
 	content: url(https://www.marinello.art/showcase/pcookietransparent.png);
-	animation: ani 5s ease infinite;
+	animation: ani 7.5s infinite;
 	
 }
 
 @keyframes ani {
 	0% {content: url(https://www.marinello.art/showcase/pcookietransparent.png);}
-	20% {content: rgba(0,0,0,0);}
-	30% {content: url(https://www.marinello.art/showcase/transparentimogen2.png);}
-	50% {content: rgba(0,0,0,0);}
-	60% {content: url(https://www.marinello.art/showcase/tristransparent.png);}
-	90% {content: rgba(0,0,0,0);}
+	33% {content: url(https://www.marinello.art/showcase/transparentimogen2.png);}
+	66% {content: url(https://www.marinello.art/showcase/tristransparent.png);}
 	100% {content: url(https://www.marinello.art/showcase/pcookietransparent.png);}
 }
