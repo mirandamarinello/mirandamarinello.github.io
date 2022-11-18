@@ -22,7 +22,7 @@ GitHub: https://github.com/jackiekellett
 html {
 	overflow-x: hidden;
 	background-color: var(--bgcolor);
-	padding: 0;
+	padding: 0.1em;
 	margin: 0;
 	color: var(--dark);
 	font-weight: 600;
@@ -35,7 +35,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	margin: 0;
-	padding: 2rem;
+	padding: 2em;
 }
 
 header {
@@ -85,6 +85,7 @@ main {
 footer {
 	font-size: 1em;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
@@ -103,7 +104,7 @@ img {
 
 .showcase {
 	width: 100%;
-	height: fit-content;
+	min-height: 50vw;
 	background: url(https://www.marinello.art/images/garments/blue_skirt/blue_skirt_transparent.png) center;
 	animation: ani 5s ease infinite;
 }
