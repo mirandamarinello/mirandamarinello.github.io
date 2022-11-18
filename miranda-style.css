@@ -124,7 +124,7 @@ img {
 .showcase {
 	width: 100%;
 	height: fit-content;
-	background: center;
+	background: url(https://www.marinello.art/images/garments/blue_skirt/blue_skirt_transparent.png) center;
 	animation: ani 5s ease infinite;
 }
 
