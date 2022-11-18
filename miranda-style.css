@@ -80,30 +80,6 @@ main {
 	flex-direction: column;
 }
 
-.home-section {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	min-height: 200px;
-}
-
-.home-section > .image {
-	height: 400px;
-}
-
-.index > ul {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	align-items: flex-start;
-	justify-content: center;
-}
-
-.index > ul > p {
-	font-size: 1.8em;
-}
-
 /* Footer */
 footer {
 	font-size: 0.8em;
@@ -116,7 +92,7 @@ footer {
 
 /* TEMPORARY */
 img {
-	max-width: 100px;
+	max-width: 50vw;
 }
 
 /* INDEX */
