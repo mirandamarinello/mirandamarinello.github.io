@@ -1,31 +1,32 @@
 /* 
 Designed by jackiekellett 
-GitHub: https://github.com/jackiekellett  
+	GitHub: https://github.com/jackiekellett  
 */
 
 /* Imports */
-@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nabla&display=swap');
+
 
 /* Root */ 
 * {
-	font-family: 'Poiret One', sans-serif;
-	--dark: #3b0264;
-	--transdark: rbga(59,2,100,0.2);
-	--bgcolor: #f1e7da;
-	--bright: #0084ff;
+	--dark: #000;
+	--transdark: #ccc;
+	--bgcolor: #fff;
+	--bright: #ff4500;
 	--light: #bfecff;
+	--
 }
 
 
 
 /* HTML */
 html {
+	font-family: 'Montserrat', sans-serif;
 	overflow-x: hidden;
 	background-color: var(--bgcolor);
 	padding: 0.1em;
 	margin: 0;
 	color: var(--dark);
-	font-weight: 600;
 }
 
 /* Body */
@@ -33,7 +34,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	margin: 0;
-	padding: 2em;
+	padding: 1em;
 }
 
 header {
@@ -42,11 +43,13 @@ header {
 	justify-content: space-between;
 	flex-wrap: wrap;
 	align-items: center;
+	padding: 0 0 1em;
 }
 
 h1 {
-	font-family: 'Poiret One', sans-serif;
+	font-family: 'Nabla', cursive;
 	font-size: 3em;
+	padding: 0 1em;
 }
 
 nav{
@@ -66,10 +69,12 @@ a{
 nav>p>a {
 	padding: .5em;
 	margin: .5em;
+	border: 0.2em solid var(--bgcolor);
 }
 
-.top-link:hover {
-	color: var(--bright);
+nav>p>a:hover {
+	font-weight: bold;
+	
 }
 
 main {
@@ -98,8 +103,6 @@ img {
 
 .showcase {
 	width: 100%;
-	min-height: 50vw;
-	max-height: 100vw;
 	content: url(https://www.marinello.art/images/showcase/pcookietransparent.png);
 	animation: ani 7.5s infinite;
 	
@@ -110,4 +113,14 @@ img {
 	33% {content: url(https://www.marinello.art/images/showcase/transparentimogen2.png);}
 	66% {content: url(https://www.marinello.art/images/showcase/tristransparent.png);}
 	100% {content: url(https://www.marinello.art/images/showcase/pcookietransparent.png);}
+}
+
+/* GALLERY IMAGES */
+
+.gallery {
+	width: 100%;
+}
+
+.gallery img {
+	width: 30vw;
 }
