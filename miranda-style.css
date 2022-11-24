@@ -13,7 +13,7 @@ Designed by jackiekellett
 	--transdark: #ccc;
 	--bgcolor: #fff;
 	--bright: #ff4500;
-	--light: #ff7a4a;
+	--light: #bfecff;
 }
 
 
@@ -32,18 +32,26 @@ body {
 	display: flex;
 	flex-direction: column;
 	margin: 0;
-	padding: 1em;
+	padding: 0 0.8em;
 }
 
 header {
 	display: flex;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
 }
 
 h1 {
+	margin: 0;
+	padding: 0;
 	font-family: 'Nabla', cursive;
 	font-size: 2em;
+}
+
+h1>a {
+	padding: 0.2em;
 }
 
 nav{
@@ -64,8 +72,8 @@ a:hover{
 }
 
 nav>p>a {
-	padding: .5em;
-	margin: 0 .7em;
+	padding: 0.5em;
+	margin: 0 0.7em;
 }
 
 nav>p>a:hover {
@@ -85,6 +93,8 @@ main {
 /* SECTION */
 section {
 	padding: 0 0.7em;
+	display: flex;
+	flex-direction: column;
 }
 
 /* Footer */
@@ -99,7 +109,6 @@ footer {
 
 
 /* INDEX */
-
 .showcase {
 	width: 100%;
 	content: url(https://www.marinello.art/images/showcase/pcookietransparent.png);
@@ -115,7 +124,6 @@ footer {
 }
 
 /* GALLERY IMAGES */
-
 .gallery {
 	display: flex;
 	flex-direction: row;
@@ -130,8 +138,30 @@ footer {
 }
 
 /* MEDIA QUERIES */
-/* 
-header {
-	justify-content: space-evenly;
+@media only screen and (min-width: 768px) {
+	body{
+		margin: 2em 3em;
+	}
+	header {
+		justify-content: space-between;
+		font-size: 1.5em;
+	}
+	h1 {
+		font-size: 2.5em;
+	}
+	section {
+		display: flex;
+		flex-direction: row;
+	}
+	section>div {
+		max-width: 50%;
+	}
+	.pregallery {
+		margin: 0 1em 0 3em;
+	}
+	.gallery img {
+		max-width: 20%;
+	}
 }
-*/
+
+
