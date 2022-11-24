@@ -14,7 +14,6 @@ Designed by jackiekellett
 	--bgcolor: #fff;
 	--bright: #ff4500;
 	--light: #bfecff;
-	--
 }
 
 
@@ -26,7 +25,6 @@ html {
 	background-color: var(--bgcolor);
 	padding: 0.1em;
 	margin: 0;
-	color: var(--dark);
 }
 
 /* Body */
@@ -38,54 +36,60 @@ body {
 }
 
 header {
-	width: 100%;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	flex-wrap: wrap;
-	align-items: center;
-	padding: 0 0 1em;
 }
 
 h1 {
 	font-family: 'Nabla', cursive;
-	font-size: 3em;
-	padding: 0 1em;
+	font-size: 2em;
 }
 
 nav{
-	width: 40%;
-	font-size: 1.5em;
+	font-size: 1.15em;
 	display: flex;
-	justify-content: space-evenly;
-	flex-wrap: wrap;
+	justify-content: space-between;
 	align-items: center;
 }
 
 a{
 	text-decoration: none;
-	color: var(--dark);
+	color: var(--bright);
+}
+
+a:hover{
+	font-weight: bold;
+	text-decoration: underline wavy 0.08em;
 }
 
 nav>p>a {
 	padding: .5em;
-	margin: .5em;
-	border: 0.2em solid var(--bgcolor);
+	margin: 0 .7em;
 }
 
 nav>p>a:hover {
 	font-weight: bold;
-	
+	text-decoration: underline wavy;
 }
 
+
+/* MAIN */
 main {
 	color: var(--dark);
-	font-size: 1.4em;
+	font-size: 1.05em;
 	display: flex;
 	flex-direction: column;
 }
 
+/* SECTION */
+section {
+	padding: 0 0.7em;
+}
+
 /* Footer */
 footer {
+	color: var(--bright);
 	font-size: 1em;
 	display: flex;
 	flex-direction: column;
@@ -93,11 +97,6 @@ footer {
 	align-items: center;
 }
 
-
-/* TEMPORARY */
-img {
-	max-width: 50vw;
-}
 
 /* INDEX */
 
@@ -118,9 +117,21 @@ img {
 /* GALLERY IMAGES */
 
 .gallery {
-	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 0 1em;
+	justify-content: space-evenly;
 }
 
 .gallery img {
-	width: 30vw;
+	padding: 1em 0;
+	max-width: 100%;
 }
+
+/* MEDIA QUERIES */
+/* 
+header {
+	justify-content: space-evenly;
+}
+*/
