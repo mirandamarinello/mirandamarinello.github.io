@@ -13,7 +13,7 @@ Designed by jackiekellett
 	--transdark: #ccc;
 	--bgcolor: #fff;
 	--bright: #ff4500;
-	--light: #bfecff;
+	--light: #ff7a4a;
 }
 
 
@@ -108,10 +108,10 @@ footer {
 }
 
 @keyframes ani {
-	0% {content: url(https://www.marinello.art/images/showcase/pcookietransparent.png);}
-	33% {content: url(https://www.marinello.art/images/showcase/transparentimogen2.png);}
-	66% {content: url(https://www.marinello.art/images/showcase/tristransparent.png);}
-	100% {content: url(https://www.marinello.art/images/showcase/pcookietransparent.png);}
+	0% {content: url(https://www.marinello.art/images/showcase/showcase1.jpg);}
+	33% {content: url(https://www.marinello.art/images/showcase/showcase2.jpg);}
+	66% {content: url(https://www.marinello.art/images/showcase/showcase3.jpg);}
+	100% {content: url(https://www.marinello.art/images/showcase/showcase1.jpg);}
 }
 
 /* GALLERY IMAGES */
