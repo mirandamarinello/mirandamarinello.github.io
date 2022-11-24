@@ -107,13 +107,13 @@ section {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	padding: 0 1em;
 	justify-content: space-evenly;
 }
 
 .gallery img {
 	padding: 1em 0;
 	max-width: 100%;
+	margin: 1em
 }
 
 /* Footer */
