@@ -158,6 +158,8 @@ footer {
 	}
 	.pregallery {
 		margin: 0 1em 0 3em;
+		display: flex;
+		flex-direction: column;
 	}
 	.gallery img {
 		max-width: 20%;
