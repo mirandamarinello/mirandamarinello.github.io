@@ -157,9 +157,10 @@ footer {
 	section {
 		display: flex;
 		flex-direction: row;
+		max-width: 60%;
 	}
 	section>div {
-		max-width: 60%;
+		width: 100%;
 	}
 	.pregallery {
 		margin: 0 1em 0 3em;
