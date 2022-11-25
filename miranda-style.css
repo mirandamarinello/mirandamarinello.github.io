@@ -161,6 +161,11 @@ footer {
 	100% {content: url(https://www.marinello.art/images/showcase/showcase1.jpg);}
 }
 
+/* CREATIONS */
+#creations {
+	justify-content: left;
+}
+
 /* MEDIA QUERIES */
 @media only screen and (min-width: 768px) {
 	body{
