@@ -102,6 +102,12 @@ section {
 	justify-content: center;
 }
 
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+  }
+
 /* GALLERY IMAGES */
 .gallery {
 	display: flex;
