@@ -163,7 +163,7 @@ footer {
 }
 
 /* ART */
-main.art {
+.art {
 	justify-content: left;
 }
 
@@ -189,6 +189,9 @@ main.art {
 	}
 	h1 {
 		font-size: 2.5em;
+	}
+	main.art{
+		justify-content: left;
 	}
 	section {
 		display: flex;
