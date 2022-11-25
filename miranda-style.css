@@ -102,6 +102,7 @@ section {
 	justify-content: center;
 }
 
+/* img */ 
 img {
 	display: block;
 	width: 100%;
@@ -120,6 +121,10 @@ img {
 	padding: 1em 0;
 	max-width: 100%;
 	margin: 1em;
+}
+
+.spin {
+	transform: rotate(90deg);
 }
 
 /* Footer */
