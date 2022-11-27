@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<!-- Head -->
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Miranda Marinello's Painted things Portfolio">
+	<meta name="keywords" content="HTML, CSS">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="miranda-style.css">
+	<title>Miranda Marinello Art</title>
+</head>
+
+<body>
+  	<!-- Header --> 
+	  <header>
+		<h1><a href='/index.html'>Miranda Marinello</h1></a>
+	<!-- Navigation Menu -->
+		<nav>
+			<p>
+				<a href='/about.html'>
+					About
+				</a>
+			</p>
+			<p>
+				<a href='/creations.html'>
+					Creations
+				</a>
+			</p>
+			<p>
+				<a href='/contact.html'>
+					Contact
+				</a>
+			</p>
+			
+		</nav>
+
+	</header>
+	<!-- Main -->
+	<main class="Paint">
+		<!-- Section 1 -->
+    	<section>
+			<div class="pregallery">
+				<h2>Dusk Custom Keyboard:</h2>
+				<h3>June through July 2022</h3>
+				<h4>Razer chromata / spray paint /paint markers / </h4>
+				<p>Fate brought a filthy razer keyboard into my life and in response I cleaned, sanded, 
+        labeled, painted, and lettered it into a new totally functional keyboard.</p>
+			</div>
+			<div class="gallery">
+				<a class="imagelink" target="_blank" rel="noreferrer noopener" href="images/icons/iconspage1.jpg"> <img src = 'images/icons/iconspage1.jpg' alt = 'Screenshot of Android cell screen full of custom pastel app icons.' /></a>
+				<a class="imagelink" target="_blank" rel="noreferrer noopener" href="images/icons/iconspage2.jpg"> <img src = 'images/icons/iconspage2.jpg' alt = 'Screenshot of Android cell screen approximately hald full of custom pastel app icons.' /></a>
+			</div>
+		</section>
+    <section>
+			<div class="pregallery">
+				<h2>Dusk Custom Keyboard:</h2>
+				<h3>June through July 2022</h3>
+				<h4>Razer chromata / spray paint /paint markers / stickers </h4>
+				<p>Fate brought a filthy razer keyboard into my life and in response I cleaned, sanded, 
+        labeled, painted, and lettered it into a new totally functional keyboard.</p>
+			</div>
+			<div class="gallery">
+				<a class="imagelink" target="_blank" rel="noreferrer noopener" href="images/icons/iconspage1.jpg"> <img src = 'images/icons/iconspage1.jpg' alt = 'Screenshot of Android cell screen full of custom pastel app icons.' /></a>
+				<a class="imagelink" target="_blank" rel="noreferrer noopener" href="images/icons/iconspage2.jpg"> <img src = 'images/icons/iconspage2.jpg' alt = 'Screenshot of Android cell screen approximately hald full of custom pastel app icons.' /></a>
+			</div>
+		</section>
+
+	</main>
+	<footer>
+		<p>&copy;2022 Miranda Marinello</p>
+	</footer>
+</body>
+
+</html>
