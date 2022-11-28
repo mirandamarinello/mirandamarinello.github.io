@@ -121,11 +121,20 @@ img {
 }
 
 .gallery img {
-	padding: 1em 0;
 	max-width: 100%;
+}
+
+.imagelink {
+	border: 2px dashed var(--bright);
+	padding: 0.5em;
 	margin: 1em;
 }
 
+a.imagelink:hover {
+	border: 2px solid var(--bright);
+}
+
+/* SPIN */ 
 .spin {
 	/* Browser compatibility */
 	-webkit-transform: rotate(90deg); 
@@ -215,5 +224,3 @@ footer {
 		height: 15vw;
 	}
 }
-
-
